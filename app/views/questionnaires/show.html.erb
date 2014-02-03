@@ -1,4 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+     <h1><%= @questionnaire.nom %></h1>
+     <%= @questionnaire.question %></br>
+
 <%= link_to 'Edit', edit_questionnaire_path(@questionnaire) %> |
 <%= link_to 'Back', questionnaires_path %>
